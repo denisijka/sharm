@@ -7399,6 +7399,10 @@
                     .querySelector(".video-module")
                     .querySelector("video").muted = !1));
             }));
+        let t = document.getElementsByClassName("menu-link"),
+          s = document.location.href;
+        for (let e = 0; e < t.length; e++)
+          s == t[e].href && t[e].classList.add("_active");
       }),
       (window.FLS = !0),
       (function (e) {
