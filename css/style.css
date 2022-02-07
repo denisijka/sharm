@@ -1674,9 +1674,8 @@ h6 {
 }
 .promo__img_cont {
   position: relative;
-  background: url("../img/contacts/map.jpg") center/cover no-repeat, #eceaea;
+  background: url("../img/contacts/map.png") center/70% no-repeat, #eceaea;
   flex: 1 1 55%;
-  background-size: 70%;
 }
 @media (max-width: 93.75em) {
   .promo__img_cont {
@@ -1826,6 +1825,9 @@ h6 {
     background-color: #f3eaea;
   }
 }
+.promo__body_educ {
+  background-color: #eceaea;
+}
 @media (min-width: 61.99875em) {
   .promo__body_cont {
     max-width: 25rem;
@@ -1847,6 +1849,11 @@ h6 {
     align-items: center;
     padding-top: 6.25rem;
     flex: 0 1 auto;
+  }
+}
+@media (max-width: 47.99875em) {
+  .promo__body_cont {
+    background-color: #eceaea;
   }
 }
 .promo__for-body {
@@ -1885,6 +1892,7 @@ h6 {
   margin-bottom: 1.5625rem;
 }
 .promo__subtitle {
+  text-align: center;
   max-width: 31.25rem;
 }
 @media (max-width: 47.99875em) {
