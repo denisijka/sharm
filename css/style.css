@@ -1329,12 +1329,12 @@ h6 {
     font-size: 1.125rem;
   }
 }
-@media (min-width: 47.99875em) and (max-width: 82.1875em) {
+@media (min-width: 62em) and (max-width: 82.1875em) {
   .menu__link {
-    font-size: clamp( 1rem , 0.8245082447rem  +  0.3656173449vw , 1.125rem );
+    font-size: clamp( 1rem , 0.6160990712rem  +  0.6191950464vw , 1.125rem );
   }
 }
-@media (max-width: 47.99875em) {
+@media (max-width: 62em) {
   .menu__link {
     font-size: 1rem;
   }
@@ -1713,7 +1713,7 @@ h6 {
   font-family: Merriweather;
   text-transform: uppercase;
   font-size: 12.5rem;
-  z-index: 5;
+  z-index: 2;
   letter-spacing: 0.2em;
   padding-left: 3.125rem;
 }
@@ -1795,6 +1795,9 @@ h6 {
   .promo__descr {
     font-size: 3.75rem;
   }
+}
+.promo__descr_educ {
+  left: -175px;
 }
 .promo__block {
   position: relative;
