@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220202231306">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220207200355">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,11 +25,10 @@
 					<div class="header__menu menu">
 						<nav class="menu__body">
 							<ul class="menu__list">
-								<li data-goto="feedback" data-goto-header class="menu__item"><a href="#" class="menu__link menu-link">Главная</a></li>
-								<li data-goto="shedule" class="menu__item"><a href="#" class="menu__link menu-link">Услуги</a></li>
-								<li data-goto="about" class="menu__item"><a href="#" class="menu__link menu-link">Обучение</a></li>
-								<li data-goto="about" class="menu__item"><a href="#" class="menu__link menu-link">Контакты</a></li>
-
+								<li class="menu__item"><a href="home.html" class="menu__link menu-link">Главная</a></li>
+								<li class="menu__item"><a href="#" class="menu__link menu-link">Услуги</a></li>
+								<li class="menu__item"><a href="education.html" class="menu__link menu-link">Обучение</a></li>
+								<li class="menu__item"><a href="contacts.html" class="menu__link menu-link">Контакты</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -42,6 +41,7 @@
 				</div>
 			</div>
 		</header>
+
 		<main class="page">
 			<section data-fullscreen class="promo">
 
@@ -59,9 +59,11 @@
 							<a href="#" type="submit" class="promo__button button">Записаться</a>
 						</div>
 						<div class="promo__social social">
-							<a href="#" class="social__link social__link_foot _icon-vk"></a>
-							<a href="#" class="social__link social__link_foot _icon-instagram"></a>
-							<a href="#" class="social__link social__link_foot _icon-facebook"></a>
+							<div class="social__wrapper">
+								<a href="#" class="social__link social__link_foot _icon-vk"></a>
+								<a href="#" class="social__link social__link_foot _icon-instagram"></a>
+								<a href="#" class="social__link social__link_foot _icon-facebook"></a>
+							</div>
 						</div>
 					</div>
 					<div class="promo__for-body"></div>
@@ -71,7 +73,7 @@
 				<div class="welcome__container">
 					<div class="welcome__block">
 						<div class="welcome__column">
-							<h2 class="welcome__title">Добро пожаловать в наш салон </h2>
+							<h2 class="welcome__title welcome__title_fz">Добро пожаловать в наш салон </h2>
 						</div>
 						<div data-spollers class="welcome__column spollers">
 							<div class="spollers__item">
@@ -98,38 +100,46 @@
 					<div class="services__items">
 						<div class="services__item">
 							<a href="#" class="services__card card">
-								<div class="card__block">
+								<div class="card__block-ibg">
 									<picture><source srcset="img/service/01.webp"type="image/webp"><img src="img/service/01.png" alt="girl"></picture>
-									<div class="card__more card__more_service">Подробнее</div>
-									<div class="card__service">Визаж</div>
 								</div>
+								<div class="card__wrapper">
+									<div class="card__more card__more_service">Подробнее</div>
+								</div>
+								<div class="card__service">Визаж</div>
 							</a>
 						</div>
 						<div class="services__item">
 							<a href="#" class="services__card card">
-								<div class="card__block">
+								<div class="card__block-ibg">
 									<picture><source srcset="img/service/02.webp"type="image/webp"><img src="img/service/02.png" alt="girl"></picture>
-									<div class="card__more card__more_service">Подробнее</div>
-									<div class="card__service">Ногтевой сервис</div>
 								</div>
+								<div class="card__wrapper">
+									<div class="card__more card__more_service">Подробнее</div>
+								</div>
+								<div class="card__service">Ногтевой сервис</div>
 							</a>
 						</div>
 						<div class="services__item">
 							<a href="#" class="services__card card">
-								<div class="card__block">
+								<div class="card__block-ibg">
 									<picture><source srcset="img/service/03.webp"type="image/webp"><img src="img/service/03.png" alt="girl"></picture>
-									<div class="card__more card__more_service">Подробнее</div>
-									<div class="card__service">Шугаринг</div>
 								</div>
+								<div class="card__wrapper">
+									<div class="card__more card__more_service">Подробнее</div>
+								</div>
+								<div class="card__service">Шугаринг</div>
 							</a>
 						</div>
 						<div class="services__item">
 							<a href="#" class="services__card card">
-								<div class="card__block">
+								<div class="card__block-ibg">
 									<picture><source srcset="img/service/04.webp"type="image/webp"><img src="img/service/04.png" alt="girl"></picture>
-									<div class="card__more card__more_service">Подробнее</div>
-									<div class="card__service">Солярий</div>
 								</div>
+								<div class="card__wrapper">
+									<div class="card__more card__more_service">Подробнее</div>
+								</div>
+								<div class="card__service">Солярий</div>
 							</a>
 						</div>
 					</div>
@@ -199,77 +209,84 @@
 					<div class="instagram__items">
 						<div class="instagram__item">
 							<a href="#" class="instagram__card card">
-								<div class="card__block card__block_height">
+								<div class="card__block-ibg card__block_height">
 									<picture><source srcset="img/instagram/01.webp"type="image/webp"><img src="img/instagram/01.jpg" alt="girl"></picture>
-									<div class="card__more">Перейти</div>
-
+									<div class="card__wrapper">
+										<div class="card__more">Перейти</div>
+									</div>
 								</div>
 							</a>
 						</div>
 						<div class="instagram__item">
 							<a href="#" class="instagram__card card">
-								<div class="card__block card__block_height">
+								<div class="card__block-ibg card__block_height">
 									<picture><source srcset="img/instagram/02.webp"type="image/webp"><img src="img/instagram/02.jpg" alt="girl"></picture>
-									<div class="card__more">Перейти</div>
-
+									<div class="card__wrapper">
+										<div class="card__more">Перейти</div>
+									</div>
 								</div>
 							</a>
 						</div>
 						<div class="instagram__item">
 							<a href="#" class="instagram__card card">
-								<div class="card__block card__block_height">
+								<div class="card__block-ibg card__block_height">
 									<picture><source srcset="img/instagram/03.webp"type="image/webp"><img src="img/instagram/03.jpg" alt="girl"></picture>
-									<div class="card__more">Перейти</div>
-
+									<div class="card__wrapper">
+										<div class="card__more">Перейти</div>
+									</div>
 								</div>
 							</a>
 						</div>
 						<div class="instagram__item">
 							<a href="#" class="instagram__card card">
-								<div class="card__block card__block_height">
+								<div class="card__block-ibg card__block_height">
 									<picture><source srcset="img/instagram/04.webp"type="image/webp"><img src="img/instagram/04.jpg" alt="girl"></picture>
-									<div class="card__more">Перейти</div>
-
+									<div class="card__wrapper">
+										<div class="card__more">Перейти</div>
+									</div>
 								</div>
 							</a>
 						</div>
 						<div class="instagram__item">
 							<a href="#" class="instagram__card card">
-								<div class="card__block card__block_height">
+								<div class="card__block-ibg card__block_height">
 									<picture><source srcset="img/instagram/05.webp"type="image/webp"><img src="img/instagram/05.jpg" alt="girl"></picture>
-									<div class="card__more">Перейти</div>
-
+									<div class="card__wrapper">
+										<div class="card__more">Перейти</div>
+									</div>
 								</div>
 							</a>
 						</div>
 						<div class="instagram__item">
 							<a href="#" class="instagram__card card">
-								<div class="card__block card__block_height">
+								<div class="card__block-ibg card__block_height">
 									<picture><source srcset="img/instagram/06.webp"type="image/webp"><img src="img/instagram/06.jpg" alt="girl"></picture>
-									<div class="card__more">Перейти</div>
-
+									<div class="card__wrapper">
+										<div class="card__more">Перейти</div>
+									</div>
 								</div>
 							</a>
 						</div>
 						<div class="instagram__item">
 							<a href="#" class="instagram__card card">
-								<div class="card__block card__block_height">
+								<div class="card__block-ibg card__block_height">
 									<picture><source srcset="img/instagram/07.webp"type="image/webp"><img src="img/instagram/07.jpg" alt="girl"></picture>
-									<div class="card__more">Перейти</div>
-
+									<div class="card__wrapper">
+										<div class="card__more">Перейти</div>
+									</div>
 								</div>
 							</a>
 						</div>
 						<div class="instagram__item">
 							<a href="#" class="instagram__card card">
-								<div class="card__block card__block_height">
+								<div class="card__block-ibg card__block_height">
 									<picture><source srcset="img/instagram/08.webp"type="image/webp"><img src="img/instagram/08.jpg" alt="girl"></picture>
-									<div class="card__more">Перейти</div>
-
+									<div class="card__wrapper">
+										<div class="card__more">Перейти</div>
+									</div>
 								</div>
 							</a>
 						</div>
-
 					</div>
 				</div>
 			</section>
@@ -292,8 +309,8 @@
 									<input required id="name" type="text" class="form__input" name="name" placeholder="Услуга">
 								</div>
 								<div class="form__checkbox form__checkbox_flx checkbox">
-									<input required class="checkbox__input" id="check" autocomplete="off" type="checkbox" name="check">
-									<label for="check" class="checkbox__label"><span>Я согласен на обработку моих персональных данных</span></label>
+									<input checked required data-error="Ошибка" class="checkbox__input" id="check-1" autocomplete="off" value="yes" type="checkbox" name="check">
+									<label for="check-1" class="checkbox__label"><span>Я согласен на обработку моих персональных данных</span></label>
 									<button class="form__button button" type="submit">Отправить</button>
 								</div>
 							</form>
@@ -316,11 +333,10 @@
 						<div class="footer__menu menu-footer">
 							<nav class="menu-footer__body">
 								<ul class="menu-footer__list">
-									<li data-goto="feedback" data-goto-header class="menu-footer__item"><a href="#" class="menu-footer__link">Главная</a></li>
-									<li data-goto="shedule" class="menu-footer__item"><a href="#" class="menu-footer__link">Услуги</a></li>
-									<li data-goto="about" class="menu-footer__item"><a href="#" class="menu-footer__link">Обучение</a></li>
-									<li data-goto="about" class="menu-footer__item"><a href="#" class="menu-footer__link">Контакты</a></li>
-
+									<li data-goto="feedback" data-goto-header class="menu-footer__item"><a href="home.html" class="menu-footer__link menu-link">Главная</a></li>
+									<li data-goto="shedule" class="menu-footer__item"><a href="#" class="menu-footer__link menu-link">Услуги</a></li>
+									<li data-goto="about" class="menu-footer__item"><a href="education.html" class="menu-footer__link menu-link">Обучение</a></li>
+									<li data-goto="about" class="menu-footer__item"><a href="contacts.html" class="menu-footer__link menu-link">Контакты</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -330,7 +346,7 @@
 						<div class="footer__shedule">Ежедневно с 10:00 до 20:00</div>
 					</div>
 				</div>
-				<div class="footer__copyright">@ 2020 SHARM Beauty studio Все права защищены</div>
+				<div class="footer__copyright copyright">@ 2020 SHARM Beauty studio Все права защищены</div>
 			</div>
 		</footer>
 	</div>
@@ -346,7 +362,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20220202231306"></script>
+	<script src="js/app.min.js?_v=20220207200355"></script>
 </body>
 
 </html>
