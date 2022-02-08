@@ -1796,8 +1796,10 @@ h6 {
     font-size: 3.75rem;
   }
 }
-.promo__descr_educ {
-  left: -175px;
+@media (max-width: 47.99875em) {
+  .promo__descr_educ {
+    left: -175px;
+  }
 }
 .promo__block {
   position: relative;
@@ -1828,8 +1830,10 @@ h6 {
     background-color: #f3eaea;
   }
 }
-.promo__body_educ {
-  background-color: #eceaea;
+@media (max-width: 47.99875em) {
+  .promo__body_educ {
+    background-color: #eceaea;
+  }
 }
 @media (min-width: 61.99875em) {
   .promo__body_cont {
@@ -1895,12 +1899,12 @@ h6 {
   margin-bottom: 1.5625rem;
 }
 .promo__subtitle {
-  text-align: center;
   max-width: 31.25rem;
 }
 @media (max-width: 47.99875em) {
   .promo__subtitle {
     font-size: 0.875rem;
+    text-align: center;
   }
 }
 .promo__button {
