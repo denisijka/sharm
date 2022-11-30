@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<title>Home</title>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<!-- <style>body{opacity: 0;}</style> -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="favicon.ico">
+		<!-- <meta name="robots" content="noindex, nofollow"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js?_v=20220206201829"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/CSSRulePlugin.min.js"></script>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header" data-scroll="160" data-scroll-show>
+				<div class="header__container">
+					<a href="#/" class="header__logo"><img src="img/logo1.webp" alt="logo"></a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
+								<li class="menu__item"><a href="service.html" class="menu__link">Services</a></li>
+								<li class="menu__item"><a href="study.html" class="menu__link">Education</a></li>
+								<li class="menu__item"><a href="contacts.html" class="menu__link">Contacts</a></li>
+							</ul>
+						</nav>
+					</div>
+					<a class="header__phone" data-da=".menu__body,992" href="tel:11111111"><span>+38 (073) 155 49 54</span>
+						<img src="img/icons/phone-volume.svg" alt="">
+					</a>
+				</div>
+			</header>
+			<main class="page">
+				<section class="page__main-block main-block">
+					<div class="main-block__container">
+						<div class="main-block__body">
+							<div data-da=".main-block__container, 767.8" class="main-block__content">
+								<h1 class="main-block__title">Beauty Saloon</h1>
+								<div class="main-block__subtitle">We create mood.</div>
+								<a href="#/" data-popup=".main-popup" class="main-block__button button button_purple">Sign up</a>
+							</div>
+							<div class="main-block__image-ibg">
+								<picture><img src="img/promo/promo-bg.jpg" alt=""></picture>
+							</div>
+							<div class="main-block__social" data-da=".menu__body, 992">
+								<a href="#/" class="main-block__link _icon-vk"></a>
+								<a href="#/" class="main-block__link _icon-instagram"></a>
+								<a href="#/" class="main-block__link _icon-facebook"></a>
+							</div>
+						</div>
+						<lottie-player data-watch class="main-block__swipe-icon" src="https://assets10.lottiefiles.com/packages/lf20_lzp9lrth.json" background="transparent" speed="1" loop autoplay></lottie-player>
+					</div>
+				</section>
+				<section class="page__advantages advantages">
+					<div class="advantages__container">
+						<div class="advantages__top">
+							<div class="advantages__titles titles">
+								<h2 class="advantages__title title">Welcome to our saloon</h2>
+							</div>
+							<div data-showmore class="advantages__text text-advantages">
+								<div class="text-advantages__top">
+									<p>Saloon beauty «Sharm» — is a space of beauty and style! Our credo: create mood.</p>
+									<p>Our saloon presents the entire spectrum the most popular services — it’s a make-up, eyebrow care.</p>
+								</div>
+								<div data-showmore-content='1' class="text-advantages__showmore">
+									<p>Saloon beauty «Sharm» — is a space of beauty and style! Our credo: create mood.
+									</p>
+									<p>Our saloon presents the entire spectrum the most popular services — it’s a make-up, eyebrow care.</p>
+								</div>
+								<button data-showmore-button type="button" class="text-advantages__more">
+									<span>read more</span>
+									<span>hide</span>
+								</button>
+							</div>
+						</div>
+						<div id="videoPlayer" class="advantages__video video-module">
+							<video preload="metadata" id="video" class="video-module__item">
+								<source src="files/sharm.webm" type="video/webm">
+								<source src="files/sharm.mp4" type="video/mp4">
+							</video>
+							<div id="video-module__controls">
+								<div class="video-module__buttons">
+									<div class="video-module__volume-block">
+										<img src="img/main/advantages/volume_off.svg" alt="">
+										<input class="video-module__volume" type="range" step="0.1" min="0" max="1" value="1" id="volume" />
+										<img src="img/main/advantages/volume_up.svg" alt="">
+									</div>
+									<button class="video-module__rewind"><img src="img/main/advantages/fast_rewind.svg" alt=""></button>
+									<button class="video-module__play"><span></span></button>
+									<button class="video-module__forward"><img src="img/main/advantages/fast_forward.svg" alt=""></button>
+								</div>
+							</div>
+							<div class="video-module__video-track">
+								<div class="video-module__timeline"></div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+				<section class="page__services services">
+					<div class="services__container">
+						<div class="services__titles titles">
+							<h2 class="services__title title">Services</h2>
+							<div class="services__subtitle subtitle">Create your own image and style with us</div>
+						</div>
+						<div class="services__items">
+							<div class="services__item item-services">
+								<a href="#/" class="item-services__image-ibg"><picture><source srcset="img/service/01.webp" type="image/webp"><img src="img/service/01.jpg" alt="services"></picture>
+								</a>
+								<div class="item-services__label">Visage</div>
+								<a href="#/" class="item-services__link">Read more</a>
+							</div>
+							<div class="services__item item-services">
+								<a href="#/" class="item-services__image-ibg"><picture><source srcset="img/service/02.webp" type="image/webp"><img src="img/service/02.jpg" alt="services"></picture>
+								</a>
+								<div class="item-services__label">Nail service</div>
+								<a href="#/" class="item-services__link">Read more</a>
+							</div>
+							<div class="services__item item-services">
+								<a href="#/" class="item-services__image-ibg"><picture><source srcset="img/service/03.webp" type="image/webp"><img src="img/service/03.jpg" alt="services"></picture>
+								</a>
+								<div class="item-services__label">Sugaring</div>
+								<a href="#/" class="item-services__link">Read more</a>
+							</div>
+							<div class="services__item item-services">
+								<a href="#/" class="item-services__image-ibg"><picture><source srcset="img/service/04.webp" type="image/webp"><img src="img/service/04.jpg" alt="services"></picture>
+								</a>
+								<div class="item-services__label">Solarium</div>
+								<a href="#/" class="item-services__link">Read more</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__benefits benefits">
+					<div class="benefits__container">
+						<div class="benefits__titles titles">
+							<h2 class="benefits__title title">Why we are the best saloon</h2>
+						</div>
+						<div class="benefits__text">
+							<ol class="benefits__list">
+								<li class="benefits__item"><span>cosmetics from the best world brands - Gehwol, OPI, Luxio, Reforma</span></li>
+								<li class="benefits__item"><span>protocol for disinfection in dental clinic.</span></li>
+								<li class="benefits__item"><span>professional team of certified specialists</span></li>
+								<li class="benefits__item"><span>individual approach to each client</span></li>
+							</ol>
+						</div>
+					</div>
+				</section>
+				<section class="page__staff staff">
+					<div class="staff__container">
+						<div class="staff__titles">
+							<h2 class="staff__title title">
+								Masters
+							</h2>
+							<div class="staff__subtitle subtitle">All our specialists have certificates and diplomas</div>
+						</div>
+						<div class="staff-slider">
+							<div class="staff-slider__swiper">
+								<div class="staff-slider__slide slide-staff">
+									<div class="slide-staff__image-ibg">
+										<picture><source data-srcset="img/masters/01.webp" type="image/webp"><img class="swiper-lazy" data-src="img/masters/01.jpg" alt=""></picture>
+										<span class="swiper-lazy-preloader"></span>
+										<div class="slide-staff__info">
+											<div class="slide-staff__part">
+												<div class="slide-staff__label">Education </div>
+												<div class="slide-staff__desc">School beauty «Sharm», Chernomorsk academie art and culture
+												</div>
+											</div>
+											<div class="slide-staff__part">
+												<div class="slide-staff__label">Experience</div>
+												<div class="slide-staff__desc">5 year</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-staff__name">Sara Adler</div>
+									<div class="slide-staff__speciality">handgun license instructor</div>
+								</div>
+								<div class="staff-slider__slide slide-staff">
+									<div class="slide-staff__image-ibg">
+										<picture><source data-srcset="img/masters/02.webp" type="image/webp"><img class="swiper-lazy" data-src="img/masters/02.jpg" alt=""></picture>
+										<span class="swiper-lazy-preloader"></span>
+										<div class="slide-staff__info">
+											<div class="slide-staff__part">
+												<div class="slide-staff__label">Education </div>
+												<div class="slide-staff__desc">School beauty «Sharm», Chernomorsk academie art and culture
+												</div>
+											</div>
+											<div class="slide-staff__part">
+												<div class="slide-staff__label">Experience</div>
+												<div class="slide-staff__desc">5 year</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-staff__name">Mila Jogovich</div>
+									<div class="slide-staff__speciality">master of eyebrow makeup</div>
+								</div>
+								<div class="staff-slider__slide slide-staff">
+									<div class="slide-staff__image-ibg">
+										<picture><source data-srcset="img/masters/03.webp" type="image/webp"><img class="swiper-lazy" data-src="img/masters/03.jpg" alt=""></picture>
+										<span class="swiper-lazy-preloader"></span>
+										<div class="slide-staff__info">
+											<div class="slide-staff__part">
+												<div class="slide-staff__label">Education </div>
+												<div class="slide-staff__desc">School beauty «Sharm», Chernomorsk academie art and culture
+												</div>
+											</div>
+											<div class="slide-staff__part">
+												<div class="slide-staff__label">Experience</div>
+												<div class="slide-staff__desc">5 year</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-staff__name">Olga Merians</div>
+									<div class="slide-staff__speciality">Master of makeup artists</div>
+								</div>
+								<div class="staff-slider__slide slide-staff">
+									<div class="slide-staff__image-ibg">
+										<picture><source data-srcset="img/masters/02.webp" type="image/webp"><img class="swiper-lazy" data-src="img/masters/02.jpg" alt=""></picture>
+										<span class="swiper-lazy-preloader"></span>
+										<div class="slide-staff__info">
+											<div class="slide-staff__part">
+												<div class="slide-staff__label">Education </div>
+												<div class="slide-staff__desc">School beauty «Sharm», Chernomorsk academie art and culture
+												</div>
+											</div>
+											<div class="slide-staff__part">
+												<div class="slide-staff__label">Experience</div>
+												<div class="slide-staff__desc">5 year</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-staff__name">Angelina Joly</div>
+									<div class="slide-staff__speciality">handgun license instructor</div>
+								</div>
+								<div class="staff-slider__slide slide-staff">
+									<div class="slide-staff__image-ibg">
+										<picture><source data-srcset="img/masters/01.webp" type="image/webp"><img class="swiper-lazy" data-src="img/masters/01.jpg" alt=""></picture>
+										<span class="swiper-lazy-preloader"></span>
+										<div class="slide-staff__info">
+											<div class="slide-staff__part">
+												<div class="slide-staff__label">Education </div>
+												<div class="slide-staff__desc">School beauty «Sharm», Chernomorsk academie art and culture
+												</div>
+											</div>
+											<div class="slide-staff__part">
+												<div class="slide-staff__label">Experience</div>
+												<div class="slide-staff__desc">5 year</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-staff__name">Amy Adams</div>
+									<div class="slide-staff__speciality">master of eyebrow makeup</div>
+								</div>
+								<div class="staff-slider__slide slide-staff">
+									<div class="slide-staff__image-ibg">
+										<picture><source data-srcset="img/masters/03.webp" type="image/webp"><img class="swiper-lazy" data-src="img/masters/03.jpg" alt=""></picture>
+										<span class="swiper-lazy-preloader"></span>
+										<div class="slide-staff__info">
+											<div class="slide-staff__part">
+												<div class="slide-staff__label">Education </div>
+												<div class="slide-staff__desc">School beauty «Sharm», Chernomorsk academie art and culture
+												</div>
+											</div>
+											<div class="slide-staff__part">
+												<div class="slide-staff__label">Experience</div>
+												<div class="slide-staff__desc">5 year</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-staff__name">Viola Allen</div>
+									<div class="slide-staff__speciality">Master of makeup artists</div>
+								</div>
+							</div>
+							<div class="staff-slider__controll">
+								<div class="staff-slider__prev _icon-left-arrow"></div>
+								<div class="staff-slider__pagination">
+								</div>
+								<div class="staff-slider__next _icon-right-arrow"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__reviews reviews">
+					<div class="reviews__container">
+						<div class="reviews__titles titles">
+							<h2 class="reviews__title title">Reviews</h2>
+							<div class="reviews__subtitle subtitle">Every day we fill the ranks of our customers</div>
+						</div>
+						<div class="reviews-slider">
+							<div class="reviews-slider__swiper">
+								<div class="reviews-slider__slide">
+									<div class="reviews-slider__image-ibg">
+										<picture><source srcset="img/reviews/01.webp" type="image/webp"><img src="img/reviews/01.jpg" alt=""></picture>
+									</div>
+									<div class="reviews-slider__text">
+										<a href="#/" class="reviews-slider__name">
+											Adrianna Dante<span class="_icon-vk"></span>
+										</a>
+										<div data-showmore-media="479.9,max" data-showmore class="reviews-slider__review-item">
+											<div data-showmore-content='80' class="review-item__text">Lorem ipsum dolor, sit amet
+												consectetur adipisicing elit. Fugiat eum voluptas placeat quis neque reprehenderit
+												impedit accusantium sed quos, optio laboriosam ducimus, iure, esse debitis.</div>
+											<button data-showmore-button type="button" class="review-item__more"><span>Show more</span><span>Hide</span></button>
+										</div>
+									</div>
+								</div>
+								<div class="reviews-slider__slide">
+									<div class="reviews-slider__image-ibg">
+										<picture><source srcset="img/reviews/02.webp" type="image/webp"><img src="img/reviews/02.jpg" alt=""></picture>
+									</div>
+									<div class="reviews-slider__text">
+										<a href="#/" class="reviews-slider__name">
+											Victoria Holmes<span class="_icon-vk"></span>
+										</a>
+										<div data-showmore-media="479.9,max" data-showmore class="reviews-slider__review-item">
+											<div data-showmore-content='80' class="review-item__text">Lorem ipsum dolor, sit amet
+												consectetur adipisicing elit. Fugiat eum voluptas placeat quis neque reprehenderit
+												impedit accusantium sed quos, optio laboriosam ducimus, iure, esse debitis.</div>
+											<button data-showmore-button type="button" class="review-item__more"><span>Show more</span><span>Hide</span></button>
+										</div>
+									</div>
+								</div>
+								<div class="reviews-slider__slide">
+									<div class="reviews-slider__image-ibg">
+										<picture><source srcset="img/reviews/girl_2.webp" type="image/webp"><img src="img/reviews/girl_2.jpg" alt=""></picture>
+									</div>
+									<div class="reviews-slider__text">
+										<a href="#/" class="reviews-slider__name">
+											Alexandra Ibragimova<span class="_icon-vk"> </span>
+										</a>
+										<div data-showmore-media="479.9,max" data-showmore class="reviews-slider__review-item">
+											<div data-showmore-content='80' class="review-item__text">Lorem ipsum dolor sit amet
+												consectetur adipisicing elit. Quo ipsam architecto ratione, vitae ab tenetur!</div>
+											<button data-showmore-button type="button" class="review-item__more"><span>Show more</span><span>Hide</span></button>
+										</div>
+									</div>
+								</div>
+								<div class="reviews-slider__slide">
+									<div class="reviews-slider__image-ibg">
+										<picture><source srcset="img/reviews/01.webp" type="image/webp"><img src="img/reviews/01.jpg" alt=""></picture>
+									</div>
+									<div class="reviews-slider__text">
+										<a href="#/" class="reviews-slider__name">
+											Helena Adams<span class="_icon-vk"></span>
+										</a>
+										<div data-showmore-media="479.9,max" data-showmore class="reviews-slider__review-item">
+											<div data-showmore-content='80' class="review-item__text">Lorem ipsum, dolor sit amet
+												consectetur adipisicing elit. Nemo aliquid quaerat molestias. Vero quidem molestias vel
+												accusamus rem, debitis necessitatibus.</div>
+											<button data-showmore-button type="button" class="review-item__more"><span>Show more</span><span>Hide</span></button>
+										</div>
+									</div>
+								</div>
+								<div class="reviews-slider__slide">
+									<div class="reviews-slider__image-ibg">
+										<picture><source srcset="img/reviews/02.webp" type="image/webp"><img src="img/reviews/02.jpg" alt=""></picture>
+									</div>
+									<div class="reviews-slider__text">
+										<a href="#/" class="reviews-slider__name">
+											Julia Yableckaya<span class="_icon-vk"></span>
+										</a>
+										<div data-showmore-media="479.9,max" data-showmore class="reviews-slider__review-item">
+											<div data-showmore-content='80' class="review-item__text">Lorem ipsum, dolor sit amet
+												consectetur adipisicing elit. Nemo aliquid quaerat molestias. Vero quidem molestias vel
+												accusamus rem, debitis necessitatibus.</div>
+											<button data-showmore-button type="button" class="review-item__more"><span>Show more</span><span>Hide</span></button>
+										</div>
+									</div>
+								</div>
+								<div class="reviews-slider__slide">
+									<div class="reviews-slider__image-ibg">
+										<picture><source srcset="img/reviews/girl_2.webp" type="image/webp"><img src="img/reviews/girl_2.jpg" alt=""></picture>
+									</div>
+									<div class="reviews-slider__text">
+										<a href="#/" class="reviews-slider__name">
+											Alena Grigorenko<span class="_icon-vk"> </span>
+										</a>
+										<div data-showmore-media="479.9,max" data-showmore class="reviews-slider__review-item">
+											<div data-showmore-content='80' class="review-item__text">Lorem ipsum, dolor sit amet
+												consectetur adipisicing elit. Nemo aliquid quaerat molestias. Vero quidem molestias vel
+												accusamus rem, debitis necessitatibus.</div>
+											<button data-showmore-button type="button" class="review-item__more"><span>Show more</span><span>Hide</span></button>
+										</div>
+									</div>
+								</div>
+								<div class="reviews-slider__slide">
+									<div class="reviews-slider__image-ibg">
+										<picture><source srcset="img/reviews/02.webp" type="image/webp"><img src="img/reviews/02.jpg" alt=""></picture>
+									</div>
+									<div class="reviews-slider__text">
+										<a href="#/" class="reviews-slider__name">
+											Varda Tanikvetil<span class="_icon-vk"></span>
+										</a>
+										<div data-showmore-media="479.9,max" data-showmore class="reviews-slider__review-item">
+											<div data-showmore-content='80' class="review-item__text">Lorem ipsum, dolor sit amet
+												consectetur adipisicing elit. Nemo aliquid quaerat molestias. Vero quidem molestias vel
+												accusamus rem, debitis necessitatibus.</div>
+											<button data-showmore-button type="button" class="review-item__more"><span>Show more</span><span>Hide</span></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews-slider__controll">
+								<div class="reviews-slider__prev _icon-left-arrow"></div>
+								<div class="reviews-slider__pagination">
+								</div>
+								<div class="reviews-slider__next _icon-right-arrow"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__social social">
+					<div class="social__container">
+						<div class="social__header">
+							<div class="social__titles titles">
+								<h2 class="social__title title">We're on Instagram</h2>
+								<div class="social__subtitle subtitle">Subscribe to our news</div>
+							</div>
+							<a href="#/" data-da=".social__container, 767.8" class="social__subscribe">Subscribe<span class="_icon-instagram"></span></a>
+						</div>
+						<div data-gallery class="social__items">
+							<div src="img/instagram/image1-full.jpg" class="social__item item-social">
+								<div class="item-social__image-ibg">
+									<picture><source srcset="img/instagram/01.webp" type="image/webp"><img src="img/instagram/01.jpg" alt=""></picture>
+								</div>
+								<a href="#/" class="item-social__link">see more<img src="img/icons/see-more.svg" alt=""></a>
+							</div>
+							<div src="img/instagram/image2-full.jpg" class="social__item item-social">
+								<div class="item-social__image-ibg">
+									<picture><source srcset="img/instagram/02.webp" type="image/webp"><img src="img/instagram/02.jpg" alt=""></picture>
+								</div>
+								<a href="#/" class="item-social__link"><img src="img/icons/see-more.svg" alt=""></a>
+							</div>
+							<div src="img/instagram/image3-full.jpg" class="social__item item-social">
+								<div class="item-social__image-ibg">
+									<picture><source srcset="img/instagram/03.webp" type="image/webp"><img src="img/instagram/03.jpg" alt=""></picture>
+								</div>
+								<a href="#/" class="item-social__link"><img src="img/icons/see-more.svg" alt=""></a>
+							</div>
+							<div src="img/instagram/image4-full.jpg" class="social__item item-social">
+								<div class="item-social__image-ibg">
+									<picture><source srcset="img/instagram/04.webp" type="image/webp"><img src="img/instagram/04.jpg" alt=""></picture>
+								</div>
+								<a href="#/" class="item-social__link"><img src="img/icons/see-more.svg" alt=""></a>
+							</div>
+							<div src="img/instagram/image5-full.jpg" class="social__item item-social">
+								<div class="item-social__image-ibg">
+									<picture><source srcset="img/instagram/05.webp" type="image/webp"><img src="img/instagram/05.jpg" alt=""></picture>
+								</div>
+								<a href="#/" class="item-social__link"><img src="img/icons/see-more.svg" alt=""></a>
+							</div>
+							<div src="img/instagram/image6-full.jpg" class="social__item item-social">
+								<div class="item-social__image-ibg">
+									<picture><source srcset="img/instagram/06.webp" type="image/webp"><img src="img/instagram/06.jpg" alt=""></picture>
+								</div>
+								<a href="#/" class="item-social__link"><img src="img/icons/see-more.svg" alt=""></a>
+							</div>
+							<div src="img/instagram/image7-full.jpg" class="social__item item-social">
+								<div class="item-social__image-ibg">
+									<picture><source srcset="img/instagram/07.webp" type="image/webp"><img src="img/instagram/07.jpg" alt=""></picture>
+								</div>
+								<a href="#/" class="item-social__link"><img src="img/icons/see-more.svg" alt=""></a>
+							</div>
+							<div src="img/instagram/image8-full.jpg" class="social__item item-social">
+								<div class="item-social__image-ibg">
+									<picture><source srcset="img/instagram/08.webp" type="image/webp"><img src="img/instagram/08.jpg" alt=""></picture>
+								</div>
+								<a href="#/" class="item-social__link"><img src="img/icons/see-more.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footer__top">
+					<div class="footer__container">
+						<div class="footer__content">
+							<div class="footer__titles titles">
+								<div class="footer__title title">Online appointment</div>
+								<div class="footer__subtitle subtitle">complete contact form to to saloon</div>
+							</div>
+							<form method="get" class="footer__form form">
+								<input autocomplete="off" type="text" name="form[name]" data-error="Error" placeholder="Name" class="form__input">
+								<input autocomplete="off" type="text" name="form[phone]" data-error="Error" placeholder="Phone" class="form__input">
+								<select name="form[course]" class="form__input">
+									<option value="" selected>Course</option>
+									<option value="1">master of eyebrow makeup</option>
+									<option value="2">Master of makeup artists</option>
+									<option value="3">Variety of design</option>
+									<option value="4">Master of manicure</option>
+								</select>
+								<div class="form__bottom">
+									<div class="form__checkbox">
+										<input id="c_1" data-error="Error" required class="form__checkbox-input" type="checkbox" value="1" name="form[agree]">
+										<label for="c_1" class="form__checkbox-label"><span class="form__checkbox-text">I agree to the processing of my personal data</span></label>
+									</div>
+									<button type="submit" class="form__button button">Send</button>
+								</div>
+							</form>
+						</div>
+						<div class="footer__image">
+							<picture><source srcset="img/feedback/hand-bg.webp" type="image/webp"><img src="img/feedback/hand-bg.png" alt=""></picture>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__container">
+						<div class="footer__body">
+							<div class="footer__navbar">
+								<a href="#/" class="footer__logo">
+									<img src="img/main/footer/icon-logo.svg" alt="">
+								</a>
+								<nav data-da=".footer__body, 767.8" class="footer__menu">
+									<ul class="footer__list">
+										<li class="footer__item"><a href="home.html" class="footer__link">Home</a>
+										</li>
+										<li class="footer__item"><a href="service.html" class="footer__link">Services</a></li>
+										<li class="footer__item"><a href="study.html" class="footer__link">Education</a></li>
+										<li class="footer__item"><a href="contacts.html" class="footer__link">Contacts</a></li>
+									</ul>
+								</nav>
+								<div class="footer__contact">
+									<a href="tel:11111111" class="footer__phone">+38 (073) 155 49 54
+									</a>
+									<div class="footer__work-time">Every day from 10.00 AM to 20.00 PM</div>
+								</div>
+							</div>
+							<div class="footer__copyright">@ 2020 SHARM Beauty studio All rights reserved</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<div aria-hidden="true" class="main-popup">
+				<div class="main-popup__body popup__wrapper">
+					<div class="main-popup__content popup__content">
+						<button data-close type="button" class="main-popup__close">
+							<img src="img/icons/close.svg" alt="">
+						</button>
+						<div class="main-popup__titles">
+							<div class="main-popup__title title">Online appointment</div>
+							<div class="main-popup__subtitle subtitle">complete contact form to to saloon</div>
+						</div>
+						<form method="get" class="main-popup__form form-popup">
+							<input autocomplete="off" type="text" name="form[name]" data-error="Error" placeholder="Имя" class="form-popup__input">
+							<input autocomplete="off" type="text" name="form[phone]" data-error="Error" placeholder="Телефон" class="form-popup__input">
+							<select name="form[course]" class="form__input">
+								<option value="" selected>Course</option>
+								<option value="1">master of eyebrow makeup</option>
+								<option value="2">Master of makeup artists</option>
+								<option value="3">Variety of design</option>
+								<option value="4">Master of manicure</option>
+							</select>
+							<div class="form-popup__bottom">
+								<div class="form-popup__checkbox">
+									<input id="popup-form" data-error="Error" required class="form-popup__check" type="checkbox" value="1" name="form[agree]">
+									<label for="popup-form" class="form-popup__label"><span class="form-popup__text">I agree to the processing of my personal data</span></label>
+								</div>
+								<button type="submit" class="main-popup__button button">Send</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div aria-hidden="true" class="courses-popup">
+				<div class="courses-popup__wrapper popup__wrapper">
+					<div class="courses-popup__content popup__content">
+						<button data-close type="button" class="courses-popup__close">
+							<img src="img/icons/close.svg" alt="">
+						</button>
+						<div class="courses-popup__body">
+							<div class="courses-popup__titles">
+								<div class="courses-popup__title title">Comby
+									manicure </div>
+								<a href="#/" class="courses-popup__subtitle subtitle ">course program <span class="_icon-arrow-right"></span>
+								</a>
+								<a href="#/" class="courses-popup__button button">Sign up</a>
+							</div>
+							<div class="courses-popup__text">
+								<ul class="courses-popup__list">
+									<li class="courses-popup__item">rules for the organization of position;</li>
+									<li class="courses-popup__item">Rules of communication with customers;</li>
+									<li class="courses-popup__item">sterilize and disinfect the manicure tools;</li>
+									<li class="courses-popup__item">nail plate structure;</li>
+									<li class="courses-popup__item">architecture and alignment np;</li>
+									<li class="courses-popup__item">milling mill classification,scissor picking;</li>
+									<li class="courses-popup__item">technique unseal the gelish;</li>
+									<li class="courses-popup__item">secrets with a perfec cover;</li>
+									<li class="courses-popup__item">secrets with a perfec glare;</li>
+									<li class="courses-popup__item">Work with on the training hands;</li>
+									<li class="courses-popup__item">Work with models;</li>
+									<li class="courses-popup__item">testing. </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="js/main.js"></script>
+		</div>
+		<script>
+        
+        let tl = gsap.timeline({ defaults: { ease: 'power4.inOut', duration: 2 }})
+
+        let flagPoles = CSSRulePlugin.getRule('.card:before')
+
+        tl.to('h1', { 'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity:1, y: 0, duration: 2 })
+
+    </script>
+	</body>
+
+
+</html>

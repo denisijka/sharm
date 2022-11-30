@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<title>Services</title>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<!-- <style>body{opacity: 0;}</style> -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="favicon.ico">
+		<!-- <meta name="robots" content="noindex, nofollow"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js?_v=20220206201829"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/CSSRulePlugin.min.js"></script>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header" data-scroll="160" data-scroll-show>
+				<div class="header__container">
+					<a href="#/" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
+								<li class="menu__item"><a href="service.html" class="menu__link">Services</a></li>
+								<li class="menu__item"><a href="study.html" class="menu__link">Education</a></li>
+								<li class="menu__item"><a href="contacts.html" class="menu__link">Contacts</a></li>
+							</ul>
+						</nav>
+					</div>
+					<a class="header__phone" data-da=".menu__body,992" href="tel:11111111"><span>+38 (073) 155 49 54</span>
+						<img src="img/icons/phone-volume.svg" alt="">
+					</a>
+				</div>
+			</header>
+			<main class="page">
+				<section class="page__main-block main-block main-block_service">
+					<div class="main-block__container">
+						<div class="main-block__body">
+							<div data-da=".main-block__container, 767.8" class="main-block__content">
+								<h1 class="main-block__title">Услуги салона</h1>
+								<div class="main-block__subtitle">Получите истинное наслаждение от нашей заботы </div>
+								<a href="#/" data-popup=".main-popup" class="main-block__button button button_purple">Sign up</a>
+							</div>
+							<div class="main-block__image-ibg">
+								<picture><source srcset="img/service/promo/bg.webp" type="image/webp"><img src="img/service/promo/bg.jpg" alt=""></picture>
+							</div>
+							<div class="main-block__social" data-da=".menu__body, 992">
+								<a href="#/" class="main-block__link _icon-vk"></a>
+								<a href="#/" class="main-block__link _icon-instagram"></a>
+								<a href="#/" class="main-block__link _icon-facebook"></a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div data-tabs="767.8" class="page__tabs tabs">
+					<div class="tabs__container">
+						<nav data-tabs-titles class="tabs__navigation">
+							<button data-goto="#nail-service" data-goto-header type="submit" class="tabs__title _tab-active">Nail
+								service</button>
+							<button data-goto="#make-up" data-goto-header type="submit" class="tabs__title">Visage</button>
+							<button data-goto="#depilation" data-goto-header type="submit" class="tabs__title">Depilation</button>
+							<button data-goto="#solarium" data-goto-header type="submit" class="tabs__title">Solar</button>
+						</nav>
+						<div data-tabs-body class="tabs__content">
+							<div id="nail-service" class="tabs__body">
+								<section class="about-service">
+									<div class="about-service__container">
+										<div class="about-service__content">
+											<div class="about-service__image-ibg"><picture><source srcset="img/service/gallery/nail/main-img.webp" type="image/webp"><img src="img/service/gallery/nail/main-img.jpg" alt=""></picture>
+											</div>
+										</div>
+										<div class="about-service__text">
+											<div class="about-service__body">
+												<h2 class="about-service__title">Nail service</h2>
+												<div class="about-service__desc">
+													<p>К услугам наших клиентов различные виды маникюра, педикюра, моделирование ногтей,
+														а
+														также SPA-процедуры</p>
+													<p>Все необходимые инструменты проходят трехступенчатую систему стерилизации. Для
+														дезинфекции наш салон использует современное немецкое оборудование.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="gallery">
+									<div class="gallery__container">
+										<div class="gallery__titles titles">
+											<h2 class="gallery__title title">
+												Галлерея
+											</h2>
+											<div class="gallery__subtitle subtitle">На наших занятиях всегда теплая атмосфера </div>
+										</div>
+										<div class="gallery-slider">
+											<div data-gallery class="gallery-slider__swiper">
+												<a href="img/service/gallery/nail/slide-1.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/nail/slide-1.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/nail/slide-1.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+												<a href="img/service/gallery/nail/slide-2.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/nail/slide-2.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/nail/slide-2.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+												<a href="img/service/gallery/nail/slide-3.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/nail/slide-3.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/nail/slide-3.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+												<a href="img/service/gallery/nail/slide-4.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/nail/slide-4.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/nail/slide-4.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+												<a href="img/service/gallery/nail/slide-5.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/nail/slide-5.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/nail/slide-5.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+											</div>
+											<div class="gallery-slider__controll">
+												<div class="gallery-slider__prev _icon-left-arrow"></div>
+												<div class="gallery-slider__pagination">
+												</div>
+												<div class="gallery-slider__next _icon-right-arrow"></div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="prices">
+									<div class="prices__container">
+										<div class="prices__titles titles">
+											<h2 class="prices__title title">Цены ногтевого
+												сервиса</h2>
+										</div>
+										<div class="prices__text">
+											<div class="prices__table">
+												<p class="prices__row">
+													<span>маникюр</span>
+													<span> 1000 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>педикюр</span>
+													<span>1300 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>Покрытие гель-лак</span>
+													<span>500₽</span>
+												</p>
+												<p class="prices__row">
+													<span>моделирование ногтей</span>
+													<span>2500 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>Дизайн ногтей</span>
+													<span>900 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>парафинотерапия</span>
+													<span>1200 ₽</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div id="make-up" class="tabs__body">
+								<section class="about-service">
+									<div class="about-service__container">
+										<div class="about-service__content">
+											<div class="about-service__image-ibg"><picture><source srcset="img/service/gallery/visage/main-img.webp" type="image/webp"><img src="img/service/gallery/visage/main-img.jpg" alt=""></picture>
+											</div>
+										</div>
+										<div class="about-service__text">
+											<div class="about-service__body">
+												<h2 class="about-service__title">Visage</h2>
+												<div class="about-service__desc">
+													<p>Специалисты нашего салона создадут вам уникальный образ. К вашим услугам
+														визажисты,
+														специалисты по кореекции бровей и наращиванию ресниц. </p>
+													<p>Оказываем такие услуги как макияж
+														(вечерний, дневной), моделирование бровей, наращивание ресниц, татуаж и многое
+														другое.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="gallery">
+									<div class="gallery__container">
+										<div class="gallery__titles titles">
+											<h2 class="gallery__title title">
+												Галлерея
+											</h2>
+											<div class="gallery__subtitle subtitle">Фото работ наших мастеров</div>
+										</div>
+										<div class="gallery-slider">
+											<div data-gallery class="gallery-slider__swiper">
+												<a href="img/service/gallery/visage/slide-1.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/visage/slide-1.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/visage/slide-1.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+												<a href="img/service/gallery/visage/slide-2.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/visage/slide-2.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/visage/slide-2.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+											</div>
+											<div class="gallery-slider__controll">
+												<div class="gallery-slider__prev _icon-left-arrow"></div>
+												<div class="gallery-slider__pagination">
+												</div>
+												<div class="gallery-slider__next _icon-right-arrow"></div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="prices">
+									<div class="prices__container">
+										<div class="prices__titles titles">
+											<h2 class="prices__title title">Цены услуг визажа</h2>
+										</div>
+										<div class="prices__text">
+											<div class="prices__table">
+												<p class="prices__row">
+													<span>Дневной макияж</span>
+													<span> 1000 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>Вечерний макияж</span>
+													<span>1500 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>Свадебный макияж</span>
+													<span>2000₽</span>
+												</p>
+												<p class="prices__row">
+													<span>Перманентный макияж</span>
+													<span>2500 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>Коррекция бровей</span>
+													<span>900 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>Наращивание ресниц</span>
+													<span>1100 ₽</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div id="depilation" class="tabs__body">
+								<section class="about-service">
+									<div class="about-service__container">
+										<div class="about-service__content">
+											<div class="about-service__image-ibg"><picture><source srcset="img/service/gallery/depilation/img.webp" type="image/webp"><img src="img/service/gallery/depilation/img.jpg" alt=""></picture>
+											</div>
+										</div>
+										<div class="about-service__text">
+											<div class="about-service__body">
+												<h2 class="about-service__title">Depilation</h2>
+												<div class="about-service__desc">
+													<p>К услугам наших клиентов различные виды маникра, педикюра, моделирование ногтей,
+														а
+														также SPA-процедуры</p>
+													<p>Все необходимые инструменты проходят трехступенчатую систему стерилизации. Для
+														дезинфекции наш салон использует современное немецкое оборудование.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="gallery">
+									<div class="gallery__container">
+										<div class="gallery__titles titles">
+											<h2 class="gallery__title title">
+												Галлерея
+											</h2>
+											<div class="gallery__subtitle subtitle">Процесс работы и результат</div>
+										</div>
+										<div class="gallery-slider">
+											<div data-gallery class="gallery-slider__swiper">
+												<a href="img/service/gallery/depilation/slide-1.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/depilation/slide-1.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/depilation/slide-1.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+												<a href="img/service/gallery/depilation/slide-2.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/depilation/slide-2.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/depilation/slide-2.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+												<a href="img/service/gallery/depilation/slide-3.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/depilation/slide-3.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/depilation/slide-3.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+												<a href="img/service/gallery/depilation/slide-4.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/depilation/slide-4.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/depilation/slide-4.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+												<a href="img/service/gallery/depilation/slide-5.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/depilation/slide-5.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/depilation/slide-5.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+											</div>
+											<div class="gallery-slider__controll">
+												<div class="gallery-slider__prev _icon-left-arrow"></div>
+												<div class="gallery-slider__pagination">
+												</div>
+												<div class="gallery-slider__next _icon-right-arrow"></div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="prices">
+									<div class="prices__container">
+										<div class="prices__titles titles">
+											<h2 class="prices__title title">Цены депиляции</h2>
+										</div>
+										<div class="prices__text">
+											<div class="prices__table">
+												<p class="prices__row">
+													<span>глубокое бикини</span>
+													<span> 1300 ₽ ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>классическое бикини</span>
+													<span>900 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>подмышечные впадины</span>
+													<span>400₽</span>
+												</p>
+												<p class="prices__row">
+													<span>руки полностью</span>
+													<span>600 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>ноги полностью</span>
+													<span>1000 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>лицо и шея</span>
+													<span>400 ₽</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div id="solarium" class="tabs__body">
+								<section class="about-service">
+									<div class="about-service__container">
+										<div class="about-service__content">
+											<div class="about-service__image-ibg"><picture><source srcset="img/service/gallery/solar/main-img.webp" type="image/webp"><img src="img/service/gallery/solar/main-img.jpg" alt=""></picture>
+											</div>
+										</div>
+										<div class="about-service__text">
+											<div class="about-service__body">
+												<h2 class="about-service__title">Solar</h2>
+												<div class="about-service__desc">
+													<p>К услугам наших клиентов различные виды маникюра, педикюра, моделирование ногтей,
+														а
+														также SPA-процедуры</p>
+													<p>Все необходимые инструменты проходят трехступенчатую систему стерилизации. Для
+														дезинфекции наш салон использует современное немецкое оборудование.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="gallery">
+									<div class="gallery__container">
+										<div class="gallery__titles titles">
+											<h2 class="gallery__title title">
+												Галлерея
+											</h2>
+											<div class="gallery__subtitle subtitle">В нашем солярии удобно и комфортно</div>
+										</div>
+										<div class="gallery-slider">
+											<div data-gallery class="gallery-slider__swiper">
+												<a href="img/service/gallery/solar/slide-1.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/solar/slide-1.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/solar/slide-1.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+												<a href="img/service/gallery/solar/slide-2.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/solar/slide-2.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/solar/slide-2.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+												<a href="img/service/gallery/solar/slide-3.jpg" class="gallery-slider__slide-ibg slide-gallery">
+													<picture><source data-srcset="img/service/gallery/solar/slide-3.webp" type="image/webp"><img class="swiper-lazy" data-src="img/service/gallery/solar/slide-3.jpg" alt=""></picture>
+													<span class="swiper-lazy-preloader"></span>
+												</a>
+											</div>
+											<div class="gallery-slider__controll">
+												<div class="gallery-slider__prev _icon-left-arrow"></div>
+												<div class="gallery-slider__pagination">
+												</div>
+												<div class="gallery-slider__next _icon-right-arrow"></div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="prices">
+									<div class="prices__container">
+										<div class="prices__titles titles">
+											<h2 class="prices__title title">Цены солярия</h2>
+										</div>
+										<div class="prices__text">
+											<div class="prices__table">
+												<p class="prices__row">
+													<span>1 мин. загара</span>
+													<span> 20 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>1 мин. загара по абонементу</span>
+													<span>15 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>абонемент 30 мин.</span>
+													<span>500₽</span>
+												</p>
+												<p class="prices__row">
+													<span>абонемент 50 мин.</span>
+													<span>900 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>абонемент 100 мин.</span>
+													<span>1200 ₽</span>
+												</p>
+												<p class="prices__row">
+													<span>С 15-00 до 17-00 скидка</span>
+													<span>50%</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__top">
+					<div class="footer__container">
+						<div class="footer__content">
+							<div class="footer__titles titles">
+								<div class="footer__title title">Online appointment</div>
+								<div class="footer__subtitle subtitle">complete contact form to to saloon</div>
+							</div>
+							<form method="get" class="footer__form form">
+								<input autocomplete="off" type="text" name="form[name]" data-error="Error" placeholder="Name" class="form__input">
+								<input autocomplete="off" type="text" name="form[phone]" data-error="Error" placeholder="Phone" class="form__input">
+								<select name="form[course]" class="form__input">
+									<option value="" selected>Course</option>
+									<option value="1">master of eyebrow makeup</option>
+									<option value="2">Master of makeup artists</option>
+									<option value="3">Variety of design</option>
+									<option value="4">Master of manicure</option>
+								</select>
+								<div class="form__bottom">
+									<div class="form__checkbox">
+										<input id="c_1" data-error="Error" required class="form__checkbox-input" type="checkbox" value="1" name="form[agree]">
+										<label for="c_1" class="form__checkbox-label"><span class="form__checkbox-text">I agree to the processing of my personal data</span></label>
+									</div>
+									<button type="submit" class="form__button button">Send</button>
+								</div>
+							</form>
+						</div>
+						<div class="footer__image">
+							<picture><source srcset="img/feedback/hand-bg.webp" type="image/webp"><img src="img/feedback/hand-bg.png" alt=""></picture>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__container">
+						<div class="footer__body">
+							<div class="footer__navbar">
+								<a href="#/" class="footer__logo">
+									<img src="img/main/footer/icon-logo.svg" alt="">
+								</a>
+								<nav data-da=".footer__body, 767.8" class="footer__menu">
+									<ul class="footer__list">
+										<li class="footer__item"><a href="home.html" class="footer__link">Home</a>
+										</li>
+										<li class="footer__item"><a href="service.html" class="footer__link">Services</a></li>
+										<li class="footer__item"><a href="study.html" class="footer__link">Education</a></li>
+										<li class="footer__item"><a href="contacts.html" class="footer__link">Contacts</a></li>
+									</ul>
+								</nav>
+								<div class="footer__contact">
+									<a href="tel:11111111" class="footer__phone">+38 (073) 155 49 54
+									</a>
+									<div class="footer__work-time">Every day from 10.00 AM to 20.00 PM</div>
+								</div>
+							</div>
+							<div class="footer__copyright">@ 2020 SHARM Beauty studio All rights reserved</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<div aria-hidden="true" class="main-popup">
+				<div class="main-popup__body popup__wrapper">
+					<div class="main-popup__content popup__content">
+						<button data-close type="button" class="main-popup__close">
+							<img src="img/icons/close.svg" alt="">
+						</button>
+						<div class="main-popup__titles">
+							<div class="main-popup__title title">Online appointment</div>
+							<div class="main-popup__subtitle subtitle">complete contact form to to saloon</div>
+						</div>
+						<form method="get" class="main-popup__form form-popup">
+							<input autocomplete="off" type="text" name="form[name]" data-error="Error" placeholder="Имя" class="form-popup__input">
+							<input autocomplete="off" type="text" name="form[phone]" data-error="Error" placeholder="Телефон" class="form-popup__input">
+							<select name="form[course]" class="form__input">
+								<option value="" selected>Course</option>
+								<option value="1">master of eyebrow makeup</option>
+								<option value="2">Master of makeup artists</option>
+								<option value="3">Variety of design</option>
+								<option value="4">Master of manicure</option>
+							</select>
+							<div class="form-popup__bottom">
+								<div class="form-popup__checkbox">
+									<input id="popup-form" data-error="Error" required class="form-popup__check" type="checkbox" value="1" name="form[agree]">
+									<label for="popup-form" class="form-popup__label"><span class="form-popup__text">I agree to the processing of my personal data</span></label>
+								</div>
+								<button type="submit" class="main-popup__button button">Send</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div aria-hidden="true" class="courses-popup">
+				<div class="courses-popup__wrapper popup__wrapper">
+					<div class="courses-popup__content popup__content">
+						<button data-close type="button" class="courses-popup__close">
+							<img src="img/icons/close.svg" alt="">
+						</button>
+						<div class="courses-popup__body">
+							<div class="courses-popup__titles">
+								<div class="courses-popup__title title">Comby
+									manicure </div>
+								<a href="#/" class="courses-popup__subtitle subtitle ">course program <span class="_icon-arrow-right"></span>
+								</a>
+								<a href="#/" class="courses-popup__button button">Sign up</a>
+							</div>
+							<div class="courses-popup__text">
+								<ul class="courses-popup__list">
+									<li class="courses-popup__item">rules for the organization of position;</li>
+									<li class="courses-popup__item">Rules of communication with customers;</li>
+									<li class="courses-popup__item">sterilize and disinfect the manicure tools;</li>
+									<li class="courses-popup__item">nail plate structure;</li>
+									<li class="courses-popup__item">architecture and alignment np;</li>
+									<li class="courses-popup__item">milling mill classification,scissor picking;</li>
+									<li class="courses-popup__item">technique unseal the gelish;</li>
+									<li class="courses-popup__item">secrets with a perfec cover;</li>
+									<li class="courses-popup__item">secrets with a perfec glare;</li>
+									<li class="courses-popup__item">Work with on the training hands;</li>
+									<li class="courses-popup__item">Work with models;</li>
+									<li class="courses-popup__item">testing. </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="js/main.js"></script>
+
+			<script>
+        
+        let tl = gsap.timeline({ defaults: { ease: 'power4.inOut', duration: 2 }})
+
+        let flagPoles = CSSRulePlugin.getRule('.card:before')
+
+        tl.to('h1', { 'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity:1, y: 0, duration: 2 })
+
+    	</script>
+		</body>
+
+
+	</html>

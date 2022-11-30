@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<title>Contacts</title>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<!-- <style>body{opacity: 0;}</style> -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="favicon.ico">
+		<!-- <meta name="robots" content="noindex, nofollow"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js?_v=20220206201829"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/CSSRulePlugin.min.js"></script>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header" data-scroll="160" data-scroll-show>
+				<div class="header__container">
+					<a href="#/" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
+								<li class="menu__item"><a href="service.html" class="menu__link">Services</a></li>
+								<li class="menu__item"><a href="study.html" class="menu__link">Education</a></li>
+								<li class="menu__item"><a href="contacts.html" class="menu__link">Contacts</a></li>
+							</ul>
+						</nav>
+					</div>
+					<a class="header__phone" data-da=".menu__body,992" href="tel:11111111"><span>+38 (073) 155 49 54</span>
+						<img src="img/icons/phone-volume.svg" alt="">
+					</a>
+				</div>
+			</header>
+			<main class="page">
+				<section class="page__contacts contacts">
+					<div class="contacts__container">
+						<div class="contacts__body">
+							<div class="contacts__content">
+								<h1 class="contacts__title">Contacts</h1>
+								<div class="contacts__phone">
+									<p class="contacts__subtitle">Номер телефона</p>
+									<a class="contacts__text" href="tel:1111111">+38 (073) 155 49 54</a>
+								</div>
+								<div class="contacts__address">
+									<p class="contacts__subtitle">Адрес салона</p>
+									<a target="_blank" href="https://goo.gl/maps/43kHXRJ8wQA6GKFC7" class="contacts__text">Odesa, Nebesna Sotnya, 76</a>
+								</div>
+								<div class="contacts__timetable">
+									<p class="contacts__subtitle">Время работы</p>
+									<p class="contacts__text">Every day from 10.00 AM to 20.00 PM</p>
+								</div>
+								<div class="contacts__email">
+									<p class="contacts__subtitle">Электронная почта</p>
+									<a class="contacts__text" href="mailto:sharm.salon@gmail.com">sharm.salon@gmail.com</a>
+								</div>
+								<div class="contacts__social">
+									<p class="contacts__subtitle">Мы в соцсетях</p>
+									<div class="contacts__links">
+										<a href="#/" class="contacts__link _icon-vk"></a>
+										<a href="#/" class="contacts__link _icon-instagram"></a>
+										<a href="#/" class="contacts__link _icon-facebook"></a>
+									</div>
+								</div>
+								<div class="contacts__copyright">@ 2020 SHARM Beauty studio All rights reserved</div>
+							</div>
+							<div class="contacts__image-ibg">
+								<picture><source srcset="img/contacts/map.webp" type="image/webp"><img src="img/contacts/map.jpg" alt="Карта"></picture>
+								<a target="_blank" href="https://goo.gl/maps/43kHXRJ8wQA6GKFC7" class="contacts__map-icon"><img src="img/contacts/punkt.svg">
+								</a>
+							</div>
+
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<footer class="footer footer_contact">
+				<div class="footer__bottom">
+					<div class="footer__container">
+						<div class="footer__body">
+							<div class="footer__navbar">
+								<a href="#/" class="footer__logo">
+									<img src="img/main/footer/icon-logo.svg" alt="">
+								</a>
+								<nav data-da=".footer__body, 767.8" class="footer__menu">
+									<ul class="footer__list">
+										<li class="footer__item"><a href="home.html" class="footer__link">Главная</a>
+										</li>
+										<li class="footer__item"><a href="service.html" class="footer__link">Услуги</a></li>
+										<li class="footer__item"><a href="study.html" class="footer__link">Обучение</a></li>
+										<li class="footer__item"><a href="contacts.html" class="footer__link">Контакты</a></li>
+									</ul>
+								</nav>
+								<div class="footer__contact">
+									<a href="tel:11111111" class="footer__phone">+38 (073) 155 49 54
+									</a>
+									<div class="footer__work-time">Every day from 10.00 AM to 20.00 PM</div>
+								</div>
+							</div>
+							<div class="footer__copyright">@ 2020 SHARM Beauty studio All rights reserved</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<div aria-hidden="true" class="main-popup">
+				<div class="main-popup__body popup__wrapper">
+					<div class="main-popup__content popup__content">
+						<button data-close type="button" class="main-popup__close">
+							<img src="img/icons/close.svg" alt="">
+						</button>
+						<div class="main-popup__titles">
+							<div class="main-popup__title title">Online appointment</div>
+							<div class="main-popup__subtitle subtitle">complete contact form to to saloon</div>
+						</div>
+						<form method="get" class="main-popup__form form-popup">
+							<input autocomplete="off" type="text" name="form[name]" data-error="Error" placeholder="Имя" class="form-popup__input">
+							<input autocomplete="off" type="text" name="form[phone]" data-error="Error" placeholder="Телефон" class="form-popup__input">
+							<select name="form[course]" class="form__input">
+								<option value="" selected>Course</option>
+								<option value="1">master of eyebrow makeup</option>
+								<option value="2">Master of makeup artists</option>
+								<option value="3">Variety of design</option>
+								<option value="4">Master of manicure</option>
+							</select>
+							<div class="form-popup__bottom">
+								<div class="form-popup__checkbox">
+									<input id="popup-form" data-error="Error" required class="form-popup__check" type="checkbox" value="1" name="form[agree]">
+									<label for="popup-form" class="form-popup__label"><span class="form-popup__text">I agree to the processing of my personal data</span></label>
+								</div>
+								<button type="submit" class="main-popup__button button">Send</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div aria-hidden="true" class="courses-popup">
+				<div class="courses-popup__wrapper popup__wrapper">
+					<div class="courses-popup__content popup__content">
+						<button data-close type="button" class="courses-popup__close">
+							<img src="img/icons/close.svg" alt="">
+						</button>
+						<div class="courses-popup__body">
+							<div class="courses-popup__titles">
+								<div class="courses-popup__title title">Comby
+									manicure </div>
+								<a href="#/" class="courses-popup__subtitle subtitle ">course program <span class="_icon-arrow-right"></span>
+								</a>
+								<a href="#/" class="courses-popup__button button">Sign up</a>
+							</div>
+							<div class="courses-popup__text">
+								<ul class="courses-popup__list">
+									<li class="courses-popup__item">rules for the organization of position;</li>
+									<li class="courses-popup__item">Rules of communication with customers;</li>
+									<li class="courses-popup__item">sterilize and disinfect the manicure tools;</li>
+									<li class="courses-popup__item">nail plate structure;</li>
+									<li class="courses-popup__item">architecture and alignment np;</li>
+									<li class="courses-popup__item">milling mill classification,scissor picking;</li>
+									<li class="courses-popup__item">technique unseal the gelish;</li>
+									<li class="courses-popup__item">secrets with a perfec cover;</li>
+									<li class="courses-popup__item">secrets with a perfec glare;</li>
+									<li class="courses-popup__item">Work with on the training hands;</li>
+									<li class="courses-popup__item">Work with models;</li>
+									<li class="courses-popup__item">testing. </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="js/main.js"></script>
+			<script>
+        
+        let tl = gsap.timeline({ defaults: { ease: 'power4.inOut', duration: 2 }})
+
+        let flagPoles = CSSRulePlugin.getRule('.card:before')
+
+        tl.to('h1', { 'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity:1, y: 0, duration: 2 })
+
+    	</script>
+		</body>
+
+
+	</html>
